@@ -14,9 +14,10 @@
         <?php
             $students = [
                 ["Hassan" , 18 , "Male" , "hassan@gmail.com"],
-                ["Abeera" , 19 , "Female"],
+                ["Abeera" , 19 , "Female" ],
                 ["Mahin" , 20 ,  "Female" , "aslammeo548@gmail.com"],
                 ["Mahin" , 10 ,  "Female" , "aslammeo548@gmail.com"],
+                ["hamza" , 20 ,  "male" , ],
             ]        
         ?>
       <table class="table">
@@ -25,6 +26,8 @@
                 <th>Name</th>
                 <th>Age</th>
                 <th>Gender</th>
+                <th>Email
+                </th>
             </tr>
         </thead>
         <tbody>
