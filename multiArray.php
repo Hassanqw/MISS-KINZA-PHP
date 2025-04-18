@@ -47,26 +47,5 @@
           ?>
         </tbody>
       </table>
-
-    
-      <table class="table">
-        <tbody>
-        <?php 
-      $num = 13;
-      for($i = 1; $i <=10; $i++){
-      ?>
-            <tr>
-              <td><?php echo $num ?></td>
-              <td><?php echo "*"?></td>
-              <td><?php echo $i?></td>
-              <td><?php echo "=" ?></td>
-              <td><?php echo $num*$i ?></td>
-            </tr>
-        </tbody>
-      </table>
-      <?php
-      }
-    ?>
-      
   </body>
 </html>
